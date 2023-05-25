@@ -1,0 +1,41 @@
+@import '~bootstrap/scss/bootstrap';
+
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .mycontainer {
+
+
+        .sidebar {
+
+            width: 20%;
+        }
+
+        .content {
+            width: 80%;
+        }
+    }
+}
+
+#app {
+    height: 100vh;
+
+    .mycontainer {
+
+
+        .sidebar {
+
+            width: 20%;
+        }
+
+        .content {
+            width: 80%;
+        }
+    }
+}
